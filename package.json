@@ -1,35 +1,37 @@
 {
-  "version": "2.0.0",
-  "name": "cordova-plugin-health",
-  "cordova_name": "Health",
-  "description": "A plugin that abstracts fitness and health repositories like Apple HealthKit or Google Fit",
-  "license": "MIT",
-  "author": "Dario Salvi",
-  "homepage": "https://github.com/dariosalvi78/cordova-plugin-health",
-  "repo": "https://github.com/dariosalvi78/cordova-plugin-health.git",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dariosalvi78/cordova-plugin-health.git"
+  "name": "fitapp",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "start": "ionic-app-scripts serve",
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint"
   },
-  "bugs": {
-    "url": "https://github.com/dariosalvi78/cordova-plugin-health/issues"
+  "dependencies": {
+    "@angular/animations": "5.2.11",
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@angular/forms": "5.2.11",
+    "@angular/platform-browser": "5.2.11",
+    "@angular/platform-browser-dynamic": "5.2.11",
+    "@ionic-native/core": "4.20.0",
+    "@ionic-native/splash-screen": "4.20.0",
+    "@ionic-native/status-bar": "4.20.0",
+    "@ionic/storage": "2.2.0",
+    "ionic-angular": "3.9.9",
+    "ionicons": "3.0.0",
+    "rxjs": "5.5.11",
+    "sw-toolbox": "3.6.0",
+    "zone.js": "0.8.29"
   },
-  "issue": "https://github.com/dariosalvi78/cordova-plugin-health/issues",
-  "keywords": [
-    "HealthKit",
-    "Google Fit",
-    "health",
-    "fitness",
-    "ecosystem:cordova"
-  ],
-  "platforms": [
-    "ios",
-    "android"
-  ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=6.0.0"
-    }
-  ]
+  "devDependencies": {
+    "@ionic/app-scripts": "3.2.4",
+    "typescript": "2.6.2"
+  },
+  "description": "An Ionic project"
 }
